@@ -1,0 +1,57 @@
+09:25:17:0417 ,crawler, Connecting to database
+09:25:18:0418 ,crawler, Generating next test ID
+09:25:18:0418 ,crawler, Next ID generated is 6
+09:25:18:0418 ,crawler, Successfully executed query: INSERT into tests(id,status,numUrlsFound,type,num_requests_sent,start_timestamp,finish_timestamp,scan_finished,url,username,urls_found) VALUES(6,'Creating profile for new crawl...',0,'crawl',0,1461893118,1461893118,0,'http://127.0.0.1/bricks/content-1','root','') 
+09:25:18:0418 ,crawler, Calling AJAX function beginCrawl()
+09:25:19:0419 ,begin_crawl, Connecting to database
+09:25:20:0420 ,begin_crawl, Instantiating crawler
+09:25:20:0420 ,begin_crawl, 扫描url: http://127.0.0.1/bricks/content-1
+09:25:20:0420 ,begin_crawl, 开始爬取
+09:26:46:0446 ,begin_crawl, 除了例外，所有的URL都已找到!:
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-1
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-1/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-1/index.php?id=0
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/favicon.ico
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/bricks.html
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-pages.html
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/file-upload-pages.html
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-pages.html
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/config/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/about.html
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/docs/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/docs/login-pages.html
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/docs/file-upload-pages.html
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/docs/content-pages.html
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-1/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-2/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-3/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-4/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-5/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-6/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/upload-1/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/upload-2/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/upload-3/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-2/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-3/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-4/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-5/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-6/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/config/setup.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-1/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-2/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-3/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-4/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-5/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-6/index.php?p=logout
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-6/index.php?p=login
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/upload-1/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/upload-2/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/upload-3/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-2/index.php?user=harry
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-3/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-5/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/content-6/index.php?id=Mw==
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/config/index.php
+09:26:46:0446 ,begin_crawl, http://127.0.0.1/bricks/login-6/index.php
